@@ -1,17 +1,28 @@
 {
   "name": "js-spa",
   "version": "1.0.0",
-  "description": "SPA para practicar",
-  "main": "index.js",
+  "description": "Single Page Application",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsalen/Single-Page-Application.git"
   },
   "keywords": [
-    "javascript",
-    "vanilla"
+    "JavaScript",
+    "Single",
+    "Page",
+    "Application"
   ],
   "author": "Joseph Salen",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsalen/Single-Page-Application/issues"
+  },
+  "homepage": "https://github.com/jsalen/Single-Page-Application#readme",
   "devDependencies": {
     "@babel/core": "^7.13.14",
     "babel-loader": "^8.2.2",
