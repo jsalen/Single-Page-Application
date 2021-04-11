@@ -5,7 +5,7 @@ const Character = async () => {
   const id = getHash();
   const character = await characterData(id);
   const { episode, status, species, gender, name, location, image } = character;
-  const view = /*html*/ `
+  const view = `
         <div class="character-inner">
             <article class="character-card">
                 <img src="${image}" alt="Picture of ${name} from Rick & Morty">
