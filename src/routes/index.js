@@ -5,7 +5,8 @@ import Error404 from "../pages/Error404";
 import getHash from "../utils/getHash";
 import resolveRoutes from "../utils/resolveRoutes";
 
-const Routes = {
+// Rutas a manejar dentro de la APP
+const routes = {
   "/": Home,
   "/:id": Character,
   "/contact": "Contact",
